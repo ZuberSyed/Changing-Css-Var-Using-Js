@@ -1,0 +1,32 @@
+:root{
+    --base : #00ffbf;
+     --spacing : 10px;
+    --blur : 10px;
+  }
+  
+  img{
+    padding: var(--spacing);
+    background:var(--base);
+    filter :blur(var(--blur));
+  }
+  
+  body{
+    background-color:#352e2e;
+    text-align:center;
+    margin:40x auto;
+    font-size:20px;
+    font-family:Lucida;
+    color:white;
+  }
+  h1{
+    margin:40px auto;
+  }
+  .controls{
+    margin-bottom :50px;
+  }
+  
+  .jscript{
+    color:var(--base);
+    text-decoration:none;
+  }
+  
